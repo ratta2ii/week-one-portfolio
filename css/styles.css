@@ -38,6 +38,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', end
   font-style: normal;
 }
 
+span {
+  font-weight: bold;
+  color: red;
+  font-size: 30px;
+}
+
 
 .panel-default > .panel-heading {
   color: #333;
