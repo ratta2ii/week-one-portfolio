@@ -9,15 +9,29 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', end
 
 }
 
-.jumbotron {
-  margin-top: 20px;
-  margin-bottom: 100px;
+/*
+.container {
+  width: 70%;
+  float: right;
 }
+*/
+
+.jumbotron {
+  margin: 20px auto 100px auto;
+}
+
+
+.jumbotron h1 {
+  font-family: 'Asap', sans-serif;
+  font-size: 110px;
+}
+
 
 .panel-default > .panel-heading {
   color: #333;
   background-color: #f5be3d;
   border-color: #ddd;
+  text-align: center;
 }
 
 
@@ -29,6 +43,17 @@ img {
   width: 20%;
   height: 30%;
   border-radius: 50%;
-  margin: 0px 50px 0px 0px;;
+  margin: 0px 50px 0px 20px;
   float:left;
+}
+
+blockquote {
+  margin-right: 50px;
+}
+
+@media screen and (max-width: 775px) {
+  .jumbotron h4 {
+    margin-left: 30px;
+    margin-top: 30px;
+  }
 }
