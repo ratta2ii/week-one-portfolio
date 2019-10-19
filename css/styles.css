@@ -10,7 +10,6 @@ body {
   margin: 20px auto 190px auto;
 }
 
-
 .jumbotron h1 {
   font-family: 'Asap', sans-serif;
   font-size: 110px;
@@ -29,15 +28,13 @@ body {
   font-size: 20px;
   font-family: sans-serif;
   font-style: normal;
-
 }
 
 span {
   font-weight: bold;
-  color: red;
-  font-size: 30px;
+  color: #8a1c1c;
+  font-size: 25px;
 }
-
 
 .panel-default > .panel-heading {
   color: #333;
@@ -55,8 +52,30 @@ img {
 }
 
 blockquote {
-  margin-right: 50px;
+  margin-right: 150px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  float: right;
 }
+
+footer#bottom {
+  background-color: #EBEBEB;
+  padding: 20px;
+  margin-top: 150px;
+  text-align: center;
+  font-family: font-family: 'Asap', sans-serif;
+}
+
+.panel {
+  overflow: hidden;
+}
+
+@media screen and (max-width: 990px) {
+  .about-me {
+    margin: 0 5% 150px 5%;
+  }
+}
+
 
 @media screen and (max-width: 775px) {
   .jumbotron h4 {
@@ -64,12 +83,55 @@ blockquote {
     margin-top: 30px;
     margin-bottom:
   }
+  .container .row {
+    width: 80%;
+    margin:auto;
+  }
+
+
+@media screen and (max-width: 630px) {
+   .jumbotron h1, .jumbotron h4 {
+     display: none;
+   }
 }
 
-#bottom {
-  background-color: lightgray;
-  padding: 20px;
-  margin-top: 200px;
-  text-align: center;
-  color: darkblue;
+
+@media screen and (max-width: 570px) {
+  blockquote {
+    margin-right: 25px;
+  }
+  div .about-me p {
+    font-size: 16px;
+  }
+  span {
+    font-size: 20px;
+  }
+  footer#bottom {
+    margin-top: 75px;
+  }
+  .container .row {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  blockquote {
+    display: none;
+  }
+  .jumbotron {
+    margin-bottom: 50px;
+  }
+  div .about-me {
+    margin: 0px 5px 50px;
+  }
+  div .about-me p {
+    font-size: 12px;
+  }
+  span {
+    font-size: 15px;
+  }
+  footer#bottom {
+    margin-top: 50px;
+  }
 }
