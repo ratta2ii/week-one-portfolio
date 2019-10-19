@@ -121,6 +121,9 @@ footer#bottom {
     width: 100%;
     margin: 0;
   }
+  footer#bottom h1 {
+    font-size: 23px;
+  }
 }
 
 @media screen and (max-width: 330px) {
