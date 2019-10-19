@@ -1,9 +1,6 @@
 body {
-  background: #3b679e; /* Old browsers */
-  background: -moz-linear-gradient(top,  #3b679e 0%, #207cca 40%, #207cca 40%, #2b88d9 50%, #7db9e8 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  #3b679e 0%,#207cca 40%,#207cca 40%,#2b88d9 50%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  #3b679e 0%,#207cca 40%,#207cca 40%,#2b88d9 50%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+  background: rgb(9,7,45);
+  background: linear-gradient(31deg, rgba(9,7,45,0.9836309523809523) 16%, rgba(59,166,233,1) 100%, rgba(91,168,215,1) 100%);
 }
 
 .jumbotron {
@@ -28,6 +25,11 @@ body {
   font-size: 20px;
   font-family: sans-serif;
   font-style: normal;
+}
+
+#about-me-header {
+  color: #8a1c1c;
+  font-weight: bold;
 }
 
 span {
@@ -56,23 +58,29 @@ blockquote {
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
   float: right;
+  width: 30%;
 }
 
 footer#bottom {
   background-color: #EBEBEB;
-  padding: 20px;
+  padding: 40px;
   margin-top: 150px;
   text-align: center;
-  font-family: font-family: 'Asap', sans-serif;
+  font-family: 'Asap', 'Merriweather', serif;
+  color: #8a1c1c;
 }
 
 .panel {
   overflow: hidden;
 }
 
+
 @media screen and (max-width: 990px) {
   .about-me {
     margin: 0 5% 150px 5%;
+  }
+  blockquote {
+    width:auto;
   }
 }
 
