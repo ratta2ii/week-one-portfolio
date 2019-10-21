@@ -25,7 +25,6 @@ body {
   font-size: 20px;
   font-family: sans-serif;
   font-style: normal;
-
 }
 
 #about-me-header {
@@ -39,6 +38,17 @@ span {
   font-weight: bold;
   color: #8a1c1c;
   font-size: 25px;
+}
+
+h2.panel-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+div.panel-body h4 {
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 .panel-default > .panel-heading {
