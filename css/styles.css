@@ -14,7 +14,6 @@ body {
 
 .about-me {
   color: gainsboro;
-
   margin: 0px 150px 150px 150px;
   background-color: #6d9abf;
   padding: 35px;
@@ -90,7 +89,7 @@ footer#bottom {
 
 @media screen and (max-width: 990px) {
   .about-me {
-    margin: 0 5% 150px 5%;
+    margin: 0 5% 100px 5%;
   }
   blockquote {
     width:auto;
