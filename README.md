@@ -4,12 +4,12 @@
 
 ## Description
 
-_This webpage represents the week one project at Epicodus. This will be the homepage for all up upcoming portfolio projects (will update README.md accordingly)._
+_This webpage represents the week one project at Epicodus. The project focus is to become familiar with Bootstrap and responsive design. This should not be construed as my actual portfolio, that will be created at a later date, but only the coding challenge that it is._
 
 ## Links
 
-Github - https://github.com/ratta2ii/portfolio
-Live - https://ratta2ii.github.io/portfolio/
+##### Github - https://github.com/ratta2ii/portfolio
+##### Live:  https://ratta2ii.github.io/week-one-portfolio/
 
 ## Setup/Installation Requirements
 
